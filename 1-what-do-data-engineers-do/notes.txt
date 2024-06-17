@@ -1,1 +1,3 @@
-
+Data engineers faciliatate the use of data across variety of staekholders, including internal analysts, data scientists, external clients via APIs.
+They build and monitor the data warehouse for optimal querying, loading datasets.
+Maintaing data quality, normalization is a key aspect, along with deployment of ML algos & setting up monitoring systems for rotten data
