@@ -1,3 +1,15 @@
 Data engineers faciliatate the use of data across variety of staekholders, including internal analysts, data scientists, external clients via APIs.
 They build and monitor the data warehouse for optimal querying, loading datasets.
 Maintaing data quality, normalization is a key aspect, along with deployment of ML algos & setting up monitoring systems for rotten data
+
+
+Q. Imagine that you are hired to enable data analytics; where would you start? How would you go about gathering requirements? Hint: Think backward from what the business may need.
+A. 
+Start by understanding the business context of the problem
+  how does the current system work?
+  What are the key results/outputs from the system? how are they ultimately used eg. feeding as input into a model, used directly as a KPI by business stakeholders, used as a checkpoint etc.
+  WHy is the current system not enough? what extra features are missing currently?
+  How should the ideal system look like? in terms of design, final output, technical robustness
+  Update frequency - How frequently the data refreshes are scheduled
+  Quality checks - Is the new data consistent with historical, need for normalization/ filtering?
+  How to deal with new outliers, missing value points etc. ?
